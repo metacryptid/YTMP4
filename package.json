@@ -1,0 +1,28 @@
+{
+  "name": "YTMP4",
+  "version": "1.0.0",
+  "description": "A Youtube to MP4 converter.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "ytdl-core": "^1.0.3",
+    "cors": "^2.8.5",
+    "socket.io": "^2.3.0",
+    "request-ip": "^2.1.3"
+  },
+  "engines": {
+    "node": "8.x"
+  },
+  "repository": {
+    "url": "https://glitch.com/edit/#!/ytmp4"
+  },
+  "license": "MIT",
+  "keywords": [
+    "node",
+    "glitch",
+    "express"
+  ]
+}
